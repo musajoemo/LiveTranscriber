@@ -9,7 +9,7 @@ class SpeakersController < ApplicationController
   end
 
   def new
-    @speaker = Speaker.new(speaker_params)
+    @speaker = Speaker.new
   end
 
   def edit

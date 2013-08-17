@@ -5,6 +5,7 @@ capybara-*.html
 .rspec
 /.bundle
 /vendor/bundle
+/vendor/ruby
 /log/*
 /tmp/*
 /db/*.sqlite3
@@ -25,11 +26,12 @@ pickle-email-*.html/.bundle
 /speech_recognition/models/hidden_markov_model/*
 /speech_recognition/models/dictionary/*
 /speech_recognition/models/language_model/*
-/speech_recognition/tools/fatpocketsphinx/fatpocketsphinx_continuous
+/speech_recognition/tools/fatpocketsphinx/*
 
 *.DS_Store
 *.rbc
 *.sassc
 .sass-cache
+.ruby-version
 /coverage/
 /spec/tmp/*
